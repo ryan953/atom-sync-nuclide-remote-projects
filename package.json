@@ -1,0 +1,17 @@
+{
+  "name": "sync-nuclide-remote-projects",
+  "main": "./index",
+  "version": "1.0.0",
+  "description": "Sync remote project folders as nuclide remote project profiles",
+  "keywords": [],
+  "repository": "https://github.com/ryan953/atom-sync-nuclide-remote-projects",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationEvents": [
+    "application:new-file",
+    "application:new-window",
+    "application:open-file"
+  ]
+}

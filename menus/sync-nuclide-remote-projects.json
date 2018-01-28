@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Nuclide",
+      "submenu": [
+        {
+          "label": "Remote Projects",
+          "submenu": [
+            {
+              "label": "Sync Remote Folders with Saved Profiles",
+              "command": "sync-nuclide-remote-projects:sync-remote-folders-with-saved-profiles"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
