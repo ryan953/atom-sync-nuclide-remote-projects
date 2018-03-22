@@ -1,7 +1,7 @@
 'use babel';
 
 function getBaseProfilesMap(connectionProfiles) {
-  return connectionProfiles.map((map, profile) => {
+  return connectionProfiles.reduce((map, profile) => {
     const server = profile.params.server;
     if (!map[server]) {
       map[server] = {};
@@ -14,7 +14,7 @@ function getBaseProfilesMap(connectionProfiles) {
 }
 
 function getExistingProfilesMap(connectionProfiles) {
-  return connectionProfiles.map((map, profile) => {
+  return connectionProfiles.reduce((map, profile) => {
     const server = profile.params.server;
     if (!map[server]) {
       map[server] = {};
@@ -27,7 +27,7 @@ function getExistingProfilesMap(connectionProfiles) {
 }
 
 function getExistingWorkingSetsMap(workingSets) {
-  return workingSets.map((map, workingSet) => {
+  return workingSets.reduce((map, workingSet) => {
     const mainURI = workingSet.uris[0] || null;
     if (mainURI && !map[mainURI]) {
       map[mainURI] = true;
