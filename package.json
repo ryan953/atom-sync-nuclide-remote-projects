@@ -13,5 +13,8 @@
     "application:new-file",
     "application:new-window",
     "application:open-file"
-  ]
+  ],
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }
