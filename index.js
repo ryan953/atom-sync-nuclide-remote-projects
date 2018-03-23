@@ -10,6 +10,7 @@ function getBaseProfilesMap(connectionProfiles) {
     if (!map[server][dirname]) {
       map[server][dirname] = profile;
     }
+    return map;
   }, {});
 }
 
@@ -23,6 +24,7 @@ function getExistingProfilesMap(connectionProfiles) {
     if (!map[server][profile.params.cwd]) {
       map[server][profile.params.cwd] = true;
     }
+    return map;
   }, {});
 }
 
@@ -32,6 +34,7 @@ function getExistingWorkingSetsMap(workingSets) {
     if (mainURI && !map[mainURI]) {
       map[mainURI] = true;
     }
+    return map;
   }, {});
 }
 
