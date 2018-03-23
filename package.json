@@ -1,7 +1,7 @@
 {
   "name": "sync-nuclide-remote-projects",
   "main": "./index",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sync remote project folders as nuclide remote project profiles",
   "keywords": [],
   "repository": "https://github.com/ryan953/atom-sync-nuclide-remote-projects",
