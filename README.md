@@ -1,5 +1,7 @@
 # sync-nuclide-remote-projects package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ryan953/atom-sync-nuclide-remote-projects.svg)](https://greenkeeper.io/)
+
 Automatically create nuclide profiles for all your remote project folders.
 
 An Example:
